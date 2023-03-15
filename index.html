@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="">
+    <header class="">
+    <div class="nav-container">
+
+        <nav class="nav-main">
+            <div>
+
+            
+            <ul class="nav-ul" style="list-style: none;">
+                <li>
+                     <h2>Programador</h2>
+                </li>
+            <li>
+              <img
+                src="img/avatar.svg"
+                alt="Imagem-Avatar"
+                class="profile-avatar"
+              />
+            </li>
+            <li><h3 id="name"> Lucas Ruiz</li><br /></li>
+                <li>
+            <img class="soft-skills" src="./img/softskills.PNG" alt="" />
+            </li>
+            </ul>
+            </div>
+
+       
+            <div class="container-contact"> 
+                <ul class="navbar-nav " style="list-style: none;">
+          
+            <li class="nav-contact-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="64"
+                height="64"
+                fill="currentColor"
+                class="bi bi-whatsapp text-success"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                />
+              </svg>
+              <a href="https://api.whatsapp.com/send?phone=5511952114466"
+                >(11) 95211-4466</a
+              >
+            </li>
+  
+            <li class="nav-contact-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="64"
+                height="64"
+                fill="currentColor"
+                class="bi bi-geo-alt-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+              <p>     São Paulo - SP</p>
+          
+            </li>
+            <li class="nav-contact-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="currentColor"
+                class="bi bi-envelope"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                />
+              </svg>
+              <a href="mailto:ruizmartins.lucas@gmail.com">ruizmartins.lucas</a>
+            </li>
+  
+            <li class="nav-contact-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+              <a href="https://www.linkedin.com/in/lucas-ruiz-martins/"
+                >Linkedin</a
+              >
+            </li>
+  
+            <li class="nav-contact-card">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                />
+              </svg>
+              <a href="https://github.com/LucasRuizMartins">GitHub</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+
+    <div>
+    </header>
+
+    <main>
+
+<section class="education-container">
+    <h2 id="title-education">Educação</h2>
+     
+        <div class="card-edu">
+            <h3>Análise e Desenvolvimento de sistemas</h3>
+            <p class="schol-name">Uninter</p>
+            <p class="stunding-time">2020 -  2023</p>
+        </div>
+
+        <div class="card-edu">
+          <h3>Formação do desenvolvedor Moderno</h3>
+          <p class="schol-name">DevSuperior</p>
+          <p class="stunding-time">2022 -  2023</p>
+      </div>
+   
+          <div class="card-edu"> 
+          <h3>Artes Dramáticas</h3>
+          <p class="schol-name">Senac</p>
+          <p class="stunding-time"> 2015 - 2017</p>
+          </div>   
+</section>
+ 
+
+
+<div id="title-course">  <h2 >Cursos</h2></div>
+<section class="course-container">
+
+  <!-- Começo Coluna 1 Card Cursos -->
+  <div class="card-hover"> 
+
+       <div class="card-course"  > <a href="https://www.udemy.com/certificate/UC-eb603f96-0cb5-42e8-8acd-679c203290f3/" class="card-link" target="_blank">
+      <div> <img class="course-logo" src="./img/udemy-Logo.png" alt=""></div>
+        <div class="course-text">
+          <h3>Algoritmos e Lógica de Programação 2022  </h3>
+          <p class="schol-course-name">Lógica de programação e pensamento computacional</p>
+          <p class="stunding-time">Java, C#, Python, C++</p>
+        </a>
+        </div>
+      </div>
+
+    <div class="card-course"><a href="https://www.udemy.com/certificate/UC-ab0e334e-ded9-4905-bfdb-7b128b100820/" class="card-link" target="_blank">
+      <div><img class="course-logo" src="./img/udemy-Logo.png" alt=""></div>
+        <div class="course-text">
+          <h3>Java completo Programação Orientada  Objetos</h3>
+          <p class="schol-course-name">Clean Code, JDBC, JPA, SpringBoot</p>
+          <p class="stunding-time"> Java </p>
+        </a> 
+        </div>    
+      </div>
+
+      <div class="card-course"> <a href="https://learn.devsuperior.com/certificados/2448818" class="card-link" target="_blank">
+        <div> <img class="course-logo" src="./img/devsuperior-Logo.png" alt=""></div>
+          <div class="course-text">
+              <h3>Semana Spring Boot React </h3>
+              <p class="schol-course-name"> Projeto utilizando SpringBoot e React Native </p>
+              <p class="stunding-time"> Java, Javascript, SpringBoot, React </p>
+            </a>
+            </div>
+        </div>
+
+        <div class="card-course"><a href="https://hermes.digitalinnovation.one/certificates/DF7C1DB9.pdf" class="card-link" target="_blank">
+          <div> <img class="course-logo" src="./img/dio-Logo.png" alt=""></div>
+            <div class="course-text">
+                <h3>MYSQL Bootcamp  </h3>
+                <p class="schol-course-name"> Bootcamp de modelagem de tabelas, estruturação e consultas MySQL e MONGODB</p>
+                <p class="stunding-time"> MYSQL, MongoDB </p>
+            </a>
+            </div>
+          </div>
+
+      <div class="card-course"> <a href="https://www.udemy.com/certificate/UC-091a2b0e-44eb-417b-926b-5c7d9dd919a6/" class="card-link" target="_blank">
+        <div> <img class="course-logo" src="./img/udemy-Logo.png" alt=""></div>
+          <div class="course-text">
+              <h3>VBA Básico ao Avançado </h3>
+              <p class="schol-course-name">Curso completo de Macros e formulários VBA</p>
+              <p class="stunding-time">Excel, VBA</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="card-course"> <a href="https://cursos.alura.com.br/certificate/6af065f8-3069-4417-bba6-b42feca94ea2" class="card-link" target="_blank">
+          <div> <img class="course-logo" src="./img/alura-Logo.png" alt=""></div>
+            <div class="course-text">
+                <h3>SOLID com Java </h3>
+                <p class="schol-course-name">
+                  Principio da programação orientada a objetos 
+                </p>
+                <p class="stunding-time">Java</p>
+              </a>
+            </div>
+          </div>
+    </div>
+  <!-- Fim Coluna 1 Card Cursos -->
+  <!-- Começo Coluna 2 Card Cursos -->
+    <div class="card-hover"> 
+      <div class="card-course"> <a href="https://cursos.alura.com.br/certificate/a0831ce2-a9de-4eea-b525-80e19564d47b" class="card-link" target="_blank"> 
+        <div><img class="course-logo" src="./img/alura-Logo.png" alt=""></div>
+          <div class="course-text">
+            <h3>TDD e Java: testes automatizados com JUnit </h3>
+            <p class="schol-course-name"> Biblioteca JUnit para testes automatizados com Java </p>
+            <p class="stunding-time">QA, Java, JUnity</p>
+          </a>
+        </div>
+      </div>      
+  
+      <div class="card-course"> <a href="https://cursos.alura.com.br/user/deth-lucas/course/maven-gerenciamento-dependencias-build-aplicacoes-java/certificate" class="card-link" target="_blank"> 
+           <div> 
+              <img class="course-logo" src="./img/alura-Logo.png" alt="">
+            </div>
+             <div class="course-text">
+              <h3>MAVEN </h3>
+              <p class="schol-course-name">gerenciamento de dependências e build de aplicações  </p>
+              <p class="stunding-time"> Java</p>
+            </a>
+            </div>   
+          </div>
+          
+          <div class="card-course">  <a href="https://cursos.alura.com.br/certificate/8f8ceeff-7d51-483e-9703-4627bfb662a9" class="card-link" target="_blank"> 
+            <div> <img class="course-logo" src="./img/alura-Logo.png" alt=""></div>
+              <div class="course-text">
+                  <h3>Quality Assurance: plano de testes e gestão de bugs </h3>
+                  <p class="schol-course-name"> Documentação relacionada a testes de correção de bugs</p>
+                  <p class="stunding-time"> QA </p>
+                </a>
+              </div>
+            </div>
+
+            <div class="card-course"> <a href="https://cursos.alura.com.br/certificate/49d377fe-e295-430a-804b-91a8b2f56020" class="card-link" target="_blank"> 
+              <div> <img class="course-logo" src="./img/alura-Logo.png" alt=""></div>
+                <div class="course-text">
+                  <h3>HTTPS – Entendendo a Web por baixo dos panos</h3>
+                  <p class="schol-course-name"> Métodos do protocolo HTTPS</p>
+                  <p class="stunding-time">Web </p>
+                </a>
+                </div>
+              </div>
+
+              <div class="card-course"> <a href="https://cursos.alura.com.br/certificate/2706c609-ddb4-4698-a84f-593de8203d47" class="card-link" target="_blank">
+                <div> <img class="course-logo" src="./img/alura-Logo.png" alt=""></div>
+                  <div class="course-text">
+                      <h3>Java Servlet:      programação web Java </h3>
+                      <p class="schol-course-name">Tomcat e Java para Web</p>
+                      <p class="stunding-time">Java</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-course">  <a href="https://media-exp1.licdn.com/dms/image/C4E22AQFY9xDhfYSIOQ/feedshare-shrink_800/0/1649432982535?e=2147483647&v=beta&t=GvpYMp41dPjBX7iSi_NT5_Ved9dfna1gq5-AGOhCddQ" class="card-link" target="_blank"> 
+                  <div> <img class="course-logo" src="./img/cisco-Logo.png" alt=""></div>
+                    <div class="course-text">
+                        <h3>Fundamentos em Cyber Segurança  </h3>
+                        <p class="schol-course-name"> compreensão dos conceitos de Cyber Security </p>
+                        <p class="stunding-time"> Segurança da informação </p>
+                      </a>
+                    </div>
+                  </div>
+        </div>
+  <!-- Fim Coluna 2 Card Cursos -->
+</div>
+ </section>
+
+<section>
+
+  <div class="work-experience-container">
+    <h4 class="work-title">
+     Experiencias Profissionais
+    </h4>
+  <div class="work-card">
+    <h4 class="work-title">
+      Freelancer
+    </h4>
+    <h5 class="office-title">
+      Desenvolvedor VBA 
+    </h5>
+    <p class="work-description">
+      Contato direto com clientes através de plataformas de prospecção. <br>
+      Levantamento de requisitos e analise de negócios. <br>
+      Desenvolvimento de planilhas em Excel e formulários utilizando VBA. <br>
+      Aplicação de conceitos de programação Orientada a objetos e normalização de dados. 
+    </p>
+    <p class="work-period">
+      Dez. 2022- atual.
+    </p>
+  </div>
+
+
+    <div class="work-card">
+      <h4 class="work-title">
+        Oranio Domingues 
+      </h4>
+      <h5 class="office-title">
+        Coordenador de qualidade
+      </h5>
+      <p class="work-description">
+      Recebimento análise e liberação de mercadoria, logística de armazenamento e controle de estoque e indicadores. <br>
+      Interpretação de normas ABNT, ASTM e ASME para inspeção de produtos, atendimento de auditorias internas e externas visando a melhoria contínua. <br>
+      Encarregado de resolução de não conformidades e planos de ação relacionados a certificação ISO 9001. <br>
+      Responsável por alimentar e controlar as informações referentes ao SGQ, além de implementar a automação dos processos utilizando VBA.   
+      </p>
+      <p class="work-period">
+        nov. 2021- atual.
+      </p>
+    </div>
+
+
+ 
+    <div class="work-card">
+      <h4 class="work-title">
+        Centro Cultural Arenart
+      </h4>
+      <h5 class="office-title">
+        Coordenador/Professor de Teatro
+      </h5>
+      <p class="work-description">
+        Como professor: <br><br>
+        Preparação de alunos atores, através de oficinas de teatro que visam auxiliar a desinibir e ensinar como se portar e como se comunicar diante de público. <br>
+        Incentivar o desenvolvimento um senso estético e sensibilidade emocional através das artes cênicas <br>
+       <br> Como Coordenador: <br><br>
+        Responsável pela organização o sistema de cadastros dos associados.<br>
+        Desenvolvimento das plataformas de comunicação da instituição. </p>
+      <p class="work-period">
+        jan.2014 - atual.
+      </p>
+    </div>
+
+
+    <div class="work-card">
+      <h4 class="work-title">
+        Conesteel 
+      </h4>
+      <h5 class="office-title">
+      Operador de qualidade Pleno 
+      </h5>
+      <p class="work-description">
+        Acompanhamento de processos produtivos assegurando que os produtos sejam executados segundo os planos de fabricação e inspeção.<br>
+        Análise de documentação e interface direta com clientes e fornecedores, para tratativa de reclamações e auxílio de procedimentos.<br> 
+        Atendimento de auditorias internas de processo envolvendo planos de ação e melhoria contínua, além de atividades administrativas diversas tais quais cálculos e operações.<br> 
+        Automação de processos em planilhas de Excel e organização/normalização dos dados da empreza. 
+        
+</p>        
+      <p class="work-period">
+        fev. 2017 até nov. 2021
+      </p>
+    </div>
+    <div class="work-card">
+      <h4 class="work-title">
+     AACS Corretora 
+      </h4>
+      <h5 class="office-title">
+        Auxiliar de Escritório 
+      </h5>
+      <p class="work-description">
+        Cotação de seguros, contato direto com clientes, Office Boy, organização de documentos e arquivos
+    </p>        
+      <p class="work-period">
+        jun. 2016 até fev. 2017
+      </p>
+    </div>
+</div>
+
+</section>
+
+
+    </main>
+ 
+    <script src="/js/script.js"></script>
+  </body>
+</html>
